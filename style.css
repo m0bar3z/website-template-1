@@ -33,7 +33,7 @@
     height: 100vh;
 }
 .img-slider {
-    width: 100%;
+    width: 75%;
     min-width: 300px;
 }
 .head-font-size {
@@ -344,5 +344,6 @@
     background: rgb(14, 17, 39);
 }
 .copyright-message h5{
+    
     color: grey;
 }
