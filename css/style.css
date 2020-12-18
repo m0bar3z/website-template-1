@@ -21,6 +21,9 @@
 .nav-colored {
   background-color: rgb(0, 0, 0, .5);
 }
+.nav-overflow {
+  width: 50%;
+}
 .my-btn {
     padding: 10px 40px;
     text-align: center;
@@ -32,6 +35,18 @@
     color: white;
     display: inline-block;
     background: linear-gradient(90deg, #76b3fe , #8680e4 );
+}
+.dot {
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  background: linear-gradient(90deg, #76b3fe , #8680e4 );
+  left: calc(50% - 970px)
+}
+.selected-dot {
+  height: 20px;
+  width: 20px;
+  background: #97cdfe;
 }
 .slider-bg-1 {
     background-image: url("../Assets/home-slider/slider-bg-1.png");
@@ -59,7 +74,7 @@
 }
 .slider-bg {
   background-image: url("../assets/3d-slider-shap.png");
-  background-size: 75%;
+  background-size: 85%;
   background-repeat: no-repeat;
   min-height: 800px;
   min-width: 700px;
@@ -103,7 +118,7 @@
 
 
   .team-caption {
-    margin-left: 20vw;
+    margin-left: 10vw;
     max-width: 540px;
   }
   .team-caption ul {
