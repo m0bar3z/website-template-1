@@ -321,7 +321,7 @@
   .map-bg {
       background: url("../assets/world-map.png");
       min-height: 665px;
-      min-width: 928px;
+      min-width: 100%;
       background-position: center;
       background-size: 80%;
       background-repeat: no-repeat;
@@ -334,7 +334,7 @@
     padding-left: 90px;
     padding-top: 45px;
     padding-bottom: 45px;
-    max-width: 40vw;
+    max-width: 40%;
     min-width: 550px;
     text-align: left;
 } 
@@ -348,9 +348,10 @@
 }
 
 
-.left-border {
-    border-left: 1vh solid blue;
-    
+.border-gradient {
+  border-left: 1vh solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(0deg, #76b3fe , #8680e4);
 }
 
 .footer-box {
