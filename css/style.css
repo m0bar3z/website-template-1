@@ -21,20 +21,19 @@
 .nav-colored {
   background-color: rgb(0, 0, 0, .5);
 }
-.nav-overflow {
-  width: 50%;
-}
+
 .my-btn {
-    padding: 10px 40px;
-    text-align: center;
-    border-radius: 30px;
-    border: 5px solid #6f97fd;
-    
-    font-size: 0.8rem;
-    font-weight: bold;
-    color: white;
-    display: inline-block;
-    background: linear-gradient(90deg, #76b3fe , #8680e4 );
+  padding: 10px 40px;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid #6f97fd;
+  
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  background: linear-gradient(90deg, #76b3fe , #8680e4 );
+  width: 150px;
 }
 .dot-container{
   width: 15px;
@@ -70,12 +69,13 @@
     width: 75%;
     min-width: 300px;
 }
-.head-font-size {
+.head-font-edit h1 {
     font-size: 3rem;
 }
-.caption-text-color {
-    color: rgb(130, 130, 133);
+.head-font-edit h6 {
+    color: #6b7d8e;
 }
+
 .f_icons {
     min-height: 91px;
 }
@@ -173,6 +173,7 @@
   .team_img_inner {
     max-width: 600px;
     margin-left: 150px;
+    margin-right: 80px;
   }
 
   .contact-us-container {
@@ -386,9 +387,30 @@
 }
 
 .footer-copyright {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     background: rgb(14, 17, 39);
 }
+.footer-copyright div div h5 i {
+    color: rgb(44, 45, 54);
+}
 .copyright-message h5{
-    
+    font-size: 0.8rem;
+    text-transform: uppercase;
     color: grey;
+}
+.fa-color ul {
+  list-style-type: none;
+}
+.fa-color ul li {
+  float: left;
+}
+.fa-color ul li a {
+  padding: 10px;
+}
+.fa-color ul li a i {
+  color: #938d8d;
+}
+.fa-color ul li:hover{
+  color: #ffffff;
 }
