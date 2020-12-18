@@ -18,15 +18,23 @@
 .navbar-nav .nav-link:hover{
     color: #0d1448;
 }
+.nav-colored {
+  background-color: rgb(0, 0, 0, .5);
+}
 .my-btn {
-    font-size: 30px;
+    padding: 10px 40px;
+    text-align: center;
+    border-radius: 30px;
+    border: 5px solid #6f97fd;
+    
+    font-size: 0.8rem;
+    font-weight: bold;
     color: white;
-    width: 176px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,215,202,0.8018557764902836) 0%, rgba(162,0,255,1) 100%);
+    display: inline-block;
+    background: linear-gradient(90deg, #76b3fe , #8680e4 );
 }
 .slider-bg-1 {
-    background-image: url("Assets/home-slider/slider-bg-1.png");
+    background-image: url("../Assets/home-slider/slider-bg-1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -46,15 +54,15 @@
     min-height: 91px;
 }
 .slider-section-container {
-    margin-top: 200px;
+    margin-top: 10vh;
     min-height: 887px;
 }
 .slider-bg {
-    background-image: url("Assets/3d-slider-shap.png");
-    background-size: 95%;
-    background-repeat: no-repeat;
-    min-height: 887px;
-    min-width: 797px;
+  background-image: url("../assets/3d-slider-shap.png");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  min-height: 800px;
+  min-width: 700px;
 }
 
   .slideshow-caption {
@@ -84,7 +92,7 @@
     padding-top: 85px;
   }
   .iphone-img-container img {
-    height: 80%;
+    height: 60%;
     width: auto;
   }
 
@@ -275,7 +283,7 @@
   }
 
   .map-bg {
-      background: url("assets/world-map.png");
+      background: url("../assets/world-map.png");
       min-height: 665px;
       min-width: 928px;
       background-position: center;
@@ -313,7 +321,7 @@
    
 }
 .footer-bg {
-    background: url(assets/footer-bg.jpg) no-repeat scroll center center;
+    background: url("../assets/footer-bg.jpg") no-repeat scroll center center;
     background-size: cover;
     padding-bottom: 125px;
     padding-top: 100px;
