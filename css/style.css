@@ -323,7 +323,7 @@ width: 150px;
   }
   
   .slide-show-container .team-subject{
-    padding-top: 10vh;
+    padding-top: 7vh;
   }
 
   .iphone-pic {
@@ -385,7 +385,7 @@ ol.carousel-indicators {
   left: 200;
   top: 350;
   position: absolute;
-  width: 30px;
+  width: 45px;
 }
 
 ol.carousel-indicators li,
@@ -424,6 +424,17 @@ ol.carousel-indicators li.active {
   }
 }
 @media (max-width: 990px) {
+  .slide-show-container .team-subject{
+    padding-top: 10vh;
+    text-align: center;
+  }
+  .carousel-inner .carousel-item h5 {
+    color: black;
+  }
+  .carousel-inner .carousel-item p {
+    color: black;
+  }
+
   .slide-show-container .left-bg {
     background: none;
     min-height: 60vh; 
@@ -433,10 +444,11 @@ ol.carousel-indicators li.active {
   }
   .slide-show-container .left-bg .carousel-container {
     margin-top: 0%;
-    margin-left: 0%;
-    width: 100%;
-    height: 100%;
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
   }
+
 }
 .text-box h3 {
     font-size: 1.1rem;
