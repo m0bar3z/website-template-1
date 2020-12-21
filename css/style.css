@@ -350,6 +350,64 @@ width: 150px;
 .box-align {
     padding-top: 14rem;
 }
+.slide-show-container .left-bg .carousel-container {
+  margin-top: 30%;
+  margin-left: 30%;
+  width: 50%;
+  height: 50%;
+}
+.carousel-inner .carousel-item h5 {
+  padding-top: 10%;
+  color: white;
+}
+.carousel-inner .carousel-item p {
+  padding-top: 7%;
+  color: white;
+}
+.carousel-inner .carousel-item .user-info {
+  
+  padding-top: 10%;
+}
+.carousel-inner .carousel-item .user-info div h6 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.carousel-inner .carousel-item .user-info div p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+
+
+ol.carousel-indicators {
+  left: 200;
+  top: 350;
+  position: absolute;
+  width: 30px;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  height: 8px;
+  margin: 1;
+  border-radius: 50%;
+  border: 0;
+  background: white;
+}
+
+ol.carousel-indicators li.active {
+  background: #97ccfe;
+}
+
+
+
+
+
+
+
+
 
 .text-box {
     padding-left: 90px;
@@ -373,9 +431,13 @@ width: 150px;
   .slide-show-container .iphone-area {
     display: none;
   }
+  .slide-show-container .left-bg .carousel-container {
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
+  }
 }
-
-
 .text-box h3 {
     font-size: 1.1rem;
     font-weight: 600;
