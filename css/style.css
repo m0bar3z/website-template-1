@@ -292,7 +292,6 @@ width: 150px;
     border-image-slice: 1;
   }
   
-  
   .contact_us_form .form-group:last-child {
     margin-top: 40px;
   }
@@ -319,6 +318,26 @@ width: 150px;
     font-weight: 500;
   }
 
+  .slide-show-container {
+    padding-top: 10vh;
+  }
+  
+  .slide-show-container .team-subject{
+    padding-top: 10vh;
+  }
+
+  .iphone-pic {
+    padding-left: 10%;
+    width: 85%;
+  }
+
+  .left-bg {
+    background: url("../assets/3d-slider-shap.png");
+    min-height: 687px; 
+    background-repeat: no-repeat;
+    
+    background-size: 95%;
+  }
   .map-bg {
       background: url("../assets/world-map.png");
       min-height: 665px;
@@ -331,6 +350,7 @@ width: 150px;
 .box-align {
     padding-top: 14rem;
 }
+
 .text-box {
     padding-left: 90px;
     padding-top: 45px;
@@ -345,6 +365,16 @@ width: 150px;
     min-width: 100%;
   }
 }
+@media (max-width: 990px) {
+  .slide-show-container .left-bg {
+    background: none;
+    min-height: 60vh; 
+  }
+  .slide-show-container .iphone-area {
+    display: none;
+  }
+}
+
 
 .text-box h3 {
     font-size: 1.1rem;
