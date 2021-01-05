@@ -65,6 +65,7 @@ width: 150px;
     background-size: cover;
     height: 100vh;
 }
+
 .img-slider {
     width: 75%;
     min-width: 300px;
@@ -400,15 +401,6 @@ ol.carousel-indicators li.active {
 ol.carousel-indicators li.active {
   background: #97ccfe;
 }
-
-
-
-
-
-
-
-
-
 .text-box {
     padding-left: 90px;
     padding-top: 45px;
@@ -421,6 +413,9 @@ ol.carousel-indicators li.active {
 @media (max-width: 1200px) {
   .text-box {
     min-width: 100%;
+  }
+  .img-slider {
+    display: none;
   }
 }
 @media (max-width: 990px) {
